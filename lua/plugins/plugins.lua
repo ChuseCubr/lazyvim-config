@@ -18,12 +18,15 @@ return {
   opts = {
     windows = {
       preview = true,
-      width_focus = 15,
+      width_focus = 30,
       width_nofocus = 15,
       width_preview = 80,
     },
-    options = {
-      use_as_default_explorer = true,
+    mappings = {
+      go_in_plus = "l",
+      go_in = "L",
+      go_out_plus = "h",
+      go_out = "H",
     },
     content = {
       filter = show_dotfiles and filter_show or filter_hide,
