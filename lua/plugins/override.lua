@@ -1,14 +1,4 @@
 return {
-  -- broken, Idk why
-  -- {
-  --   "nvim-neo-tree/neo-tree.nvim",
-  --   -- init = function() end,
-  --   opts = {
-  --     filesystem = {
-  --       hijack_netrw_behavior = "open_default",
-  --     },
-  --   },
-  -- },
 
   -- disable indent animation
   {
