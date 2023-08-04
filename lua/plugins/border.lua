@@ -1,6 +1,6 @@
 -- https://github.com/loichyan/dotfiles/blob/lazyvim/config/nvim/lua/plugins/_border.lua
 -- Set border of some LazyVim plugins to rounded
-local BORDER_STYLE = "single"
+local BORDER_STYLE = "rounded"
 
 return {
   -- lazyvim.plugins.coding

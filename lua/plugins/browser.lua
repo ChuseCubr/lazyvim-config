@@ -1,5 +1,5 @@
 local show_dotfiles = false
-local filter_show = function(fs_entry)
+local filter_show = function(_)
   return true
 end
 local filter_hide = function(fs_entry)
@@ -28,10 +28,6 @@ local files_set_cwd = function()
   local cur_entry_path = MiniFiles.get_fs_entry().path
   local cur_directory = vim.fs.dirname(cur_entry_path)
   vim.fn.chdir(cur_directory)
-end
-
-local reset_register = function()
-  vim.fn.setreg("a", {})
 end
 
 return {
@@ -81,8 +77,6 @@ return {
       pattern = "MiniFilesBufferCreate",
       callback = function(args)
         local buf_id = args.data.buf_id
-
-        reset_register()
 
         -- Tweak left-hand side of mapping to your liking
         vim.keymap.set("n", "g.", toggle_dotfiles, {
