@@ -1,12 +1,15 @@
 return {
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      defaults = {
-        keymaps = false,
-      },
-    },
-  },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     defaults = {
+  --       keymaps = false,
+  --     },
+  --   },
+  -- },
+
+  { "folke/flash.nvim", enabled = false },
+  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
 
   -- disable indent animation
   {

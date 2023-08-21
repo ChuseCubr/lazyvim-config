@@ -3,12 +3,17 @@ return {
     "kaarmu/typst.vim",
     ft = "typst",
     lazy = false,
-    config = function()
-      require("lspconfig").typst_lsp.setup({
-        settings = {
-          exportPdf = "onSave",
+  },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        typst_lsp = {
+          settings = {
+            exportPdf = "onSave",
+          },
         },
-      })
-    end,
+      },
+    },
   },
 }
