@@ -8,8 +8,16 @@ return {
   --   },
   -- },
 
-  { "folke/flash.nvim", enabled = false },
-  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  {
+    "folke/flash.nvim",
+    vscode = true,
+    enabled = false,
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    vscode = true,
+    enabled = false,
+  },
 
   -- disable indent animation
   {
