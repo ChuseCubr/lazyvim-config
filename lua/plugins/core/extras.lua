@@ -1,8 +1,15 @@
 return {
+  -- {
+  --   "godlygeek/tabular",
+  --   vscode = true,
+  -- },
+
   {
-    "godlygeek/tabular",
-    vscode = true,
+    "echasnovski/mini.align",
+    version = "*",
+    config = true,
   },
+
   {
     "NvChad/nvim-colorizer.lua",
     vscode = true,

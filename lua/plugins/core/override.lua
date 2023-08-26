@@ -29,6 +29,13 @@ return {
     },
   },
 
+  {
+    "nvim-telescope/telescope.nvim",
+    keys = {
+      { "<leader><space>", "<cmd>Telescope buffers<cr>", desc = "Buffers" },
+    },
+  },
+
   -- stolen from example
   -- Use <tab> for completion and snippets (supertab)
   -- first: disable default <tab> and <s-tab> behavior in LuaSnip
