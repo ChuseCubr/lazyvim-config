@@ -11,6 +11,10 @@ return {
   },
 
   {
+    "tpope/vim-abolish",
+  },
+
+  {
     "NvChad/nvim-colorizer.lua",
     vscode = true,
     opts = {
