@@ -19,7 +19,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.dap.nlua" },
     { import = "lazyvim.plugins.extras.vscode" },
     { import = "plugins/core" },
-    { import = "plugins/lsp" },
+    { import = "plugins/langs" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
