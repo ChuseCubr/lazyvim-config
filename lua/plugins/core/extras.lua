@@ -17,6 +17,10 @@ return {
   },
 
   {
+    "imsnif/kdl.vim",
+  },
+
+  {
     "echasnovski/mini.align",
     version = "*",
     config = true,
