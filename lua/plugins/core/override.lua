@@ -13,9 +13,15 @@ return {
     vscode = true,
     enabled = false,
   },
+
   {
     "nvim-neo-tree/neo-tree.nvim",
     vscode = true,
+    enabled = false,
+  },
+
+  {
+    "goolord/alpha-nvim",
     enabled = false,
   },
 
