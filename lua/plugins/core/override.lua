@@ -21,6 +21,11 @@ return {
   },
 
   {
+    "nvim-treesitter/nvim-treesitter",
+    event = { "VeryLazy" },
+  },
+
+  {
     "goolord/alpha-nvim",
     enabled = false,
   },
