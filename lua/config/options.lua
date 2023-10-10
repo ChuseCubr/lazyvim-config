@@ -4,6 +4,7 @@
 
 vim.opt.title = true
 vim.opt.showbreak = "↪"
+vim.opt.expandtab = false
 vim.opt.list = true
 vim.opt.listchars:append({
   -- New line
