@@ -25,11 +25,6 @@ return {
     lazy = false,
   },
 
-  {
-    "goolord/alpha-nvim",
-    enabled = false,
-  },
-
   -- disable indent animation
   {
     "echasnovski/mini.indentscope",

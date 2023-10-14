@@ -4,6 +4,7 @@ return {
     opts = {
       errors = { mode = "fg" },
     },
+    enabled = false,
   },
 
   {

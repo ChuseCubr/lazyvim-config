@@ -27,6 +27,8 @@ vim.opt.colorcolumn = "80"
 vim.opt.scrolloff = 8
 vim.opt.guicursor = "n-v-c-i:block"
 
+vim.g.autoformat = false
+
 if vim.fn.has("win32") == 1 then
   local powershell_options = {
     shell = vim.fn.executable("pwsh") == 1 and "pwsh" or "powershell",
